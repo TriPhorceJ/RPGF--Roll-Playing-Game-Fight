@@ -265,7 +265,6 @@ namespace Review
 		     }
 		 }
 		Console.WriteLine("Made by TriPhorceJ");
-
 	}
   }
 }
