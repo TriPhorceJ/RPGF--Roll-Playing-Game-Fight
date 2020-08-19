@@ -254,8 +254,8 @@ namespace Review
 			 Console.WriteLine($"{name}'s Life: {Life}");
 		     }
          if ( Life <= 0){
-            Console.WriteLine($"{name} loses");
-            Console.WriteLine($"{name2} beat you");
+            Console.WriteLine($"{name2} wins!");
+            Console.WriteLine($"You beat {name}!");
              }
            }
            if ( Life2  <= 0){
