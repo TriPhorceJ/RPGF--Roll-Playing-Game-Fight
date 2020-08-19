@@ -11,7 +11,7 @@ namespace Review
 	    string name = Console.ReadLine();
 	    string[] eDamage = new string[3]{"punch", "kick", "shoot"};
 	    int eDamageCount = eDamage.Length;
-    	string[] opponents = new string[16]{"Glitch", "Thanos", "Pac-Man", "Shredder", "Bowser", "HeroBrine", "Finn Balor", "Ganondorf", "Big Chungus", "Pac-Man", "Shredder", "Bowser", "HeroBrine", "Finn Balor", "Ganondorf", $"Dark {name}"};
+    	string[] opponents = new string[10]{"Glitch", "Thanos", "Pac-Man", "Shredder", "Bowser", "HeroBrine", "Finn Balor", "Ganondorf", "Big Chungus", $"Dark {name}"};
 	    int opponentCount = opponents.Length;
 	    int ELife = 100;
 	    int Life = 100;
