@@ -13,8 +13,8 @@ You can play at different difficulties and play two player.
 |      @@@@MWWWWWWWWM|---/___ /----/____/----/-------------/__-------------__----/__---_/_-
 |       ##WMMWWWWWWMW|  /    |    /         /  --,        /         /    /   )  /   )  /  
 |         $$MWWWWWWMM|_/_____|___/_________(____/________/_________/____(___/__/___/__(_ __
-|         @$MMWWWWMMW|                                                     /     
-+--------------------+                                                 (_ /
+|         @$MMWWWWMMW| By TriPhorceJ                                       /     
++--------------------+ Made with CSharp                                (_ /
 ```
 To compile the program run:
 ```
