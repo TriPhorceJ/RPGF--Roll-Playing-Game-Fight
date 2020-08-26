@@ -112,13 +112,18 @@ static void attackPhase1p(Player cpu, Player person){
     static void InfoScreen() {
 
   Console.Clear();
-  Console.WriteLine("+---------------------------------------------------------------+");
-  Console.WriteLine("|                                                               |");
-  Console.WriteLine("| RPG Fight  v0.1                                               |");
-  Console.WriteLine("| By TriPhorceJ 2020                                            |");
-  Console.WriteLine("| Press any key to start.                                       |");
-  Console.WriteLine("|                                                               |");
-  Console.WriteLine("+---------------------------------------------------------------+");
+  Console.WriteLine("+--------------------+");
+  Console.WriteLine("|     #@@@@#         |");
+  Console.WriteLine("|    @WWWWWM@        |");
+  Console.WriteLine("|   #WWWWM$WM        |");
+  Console.WriteLine("|   #@@$@@#$$#@#     |_____________________________________________________________________");
+  Console.WriteLine("|    @@@@@@@@$WM$@#  |    ____      ____        __          _____                     ");
+  Console.WriteLine("|     @@@@@@$WWWWMM$@|    /    )    /    )    /    )        /    '    ,           /        ");
+  Console.WriteLine("|      @@@@MWWWWWWWWM|---/___ /----/____/----/-------------/__-------------__----/__---_/_-");
+  Console.WriteLine("|       ##WMMWWWWWWMW|  /    |    /         /  --,        /         /    /   )  /   )  /  ");
+  Console.WriteLine("|         $$MWWWWWWMM|_/_____|___/_________(____/________/_________/____(___/__/___/__(_ __");
+  Console.WriteLine("|         @$MMWWWWMMW| by TriPhorceJ                                       /     ");
+  Console.WriteLine("+--------------------+ press any key to continue                       (_ /");
   Console.ReadKey(true);
 
     }
@@ -220,6 +225,7 @@ static int MainMenu() {
   static void Main(string[] args)
   {
 
+    Console.Clear();
     InfoScreen();
     int playerCount = MainMenu();
     Console.WriteLine(playerCount);
